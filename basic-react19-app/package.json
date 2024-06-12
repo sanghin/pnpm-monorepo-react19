@@ -1,0 +1,28 @@
+{
+  "name": "vite-react-boilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.0.0-rc-f3e09d6328-20240612",
+    "react-dom": "19.0.0-rc-f3e09d6328-20240612"
+  },
+  "devDependencies": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
+  },
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631"
+}
